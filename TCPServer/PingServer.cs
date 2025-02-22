@@ -45,6 +45,8 @@ namespace TCPServer
 
             Console.WriteLine($"Response Sent: {response}");
 
+            // We made a change
+
             client.Close();
         }
     }
